@@ -14,15 +14,18 @@
 
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+# Inherit some common Nitrogen OS stuff.
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
-PRODUCT_NAME := lineage_tomato
+PRODUCT_NAME := nitrogen_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
+
+PRODUCT_PACKAGES += \
+    Launcher3
 
 PRODUCT_GMS_CLIENTID_BASE := android-micromax
 
