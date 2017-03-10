@@ -1,6 +1,6 @@
 # System props for YUREKA/+
 
-ro.nitrogen.device=tomato
+ro.product.device=tomato
 
 # USB debugging at boot
 persist.sys.usb.config=mtp,adb
