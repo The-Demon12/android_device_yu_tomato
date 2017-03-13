@@ -6,5 +6,11 @@
   {
     "repository": "android_kernel_cyanogen_msm8916",
     "target_path": "kernel/cyanogen/msm8916"
+  },
+  {
+    "remote":       "github",
+    "repository": "lineageos/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+     "branch":      "cm-14.1"
   }
 ]
